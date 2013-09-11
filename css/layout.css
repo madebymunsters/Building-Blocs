@@ -1,0 +1,81 @@
+/* Layout Framework CSS -------------
+Author: Joey Kirk
+Company: Bloc, Inc.
+Date: Sept. 9, 2013
+Version: 1.0 -----------------------*/
+
+/* Body Options */
+body {
+	background:#fff;
+}
+
+/* Colors to show blocs */
+.gray {
+	background: #ccc;
+}
+
+
+/* Responsive Columns -- Mobile */
+.container {
+	width:auto;
+	padding:0 2em;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+	width:100%;
+}
+
+/* Columns -- Based on a 12-column grid */
+@media all and (min-width:767px) {
+	.container {
+		max-width: 57.5em;
+		width:100%;
+		margin: 0 auto;
+		*zoom: 1;
+	}
+	.bloc, .blocs {
+		float:left;
+		position:relative;
+		padding:0 0.9em;
+		margin:0 0.9em;
+	}
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+		position:relative;
+	}
+	.one {
+		width: 8.33333%;
+	}
+	.two {
+		width:16.66667%;
+	}
+	.three {
+		width:25%;
+	}
+	.four {
+		width: 33.33333%;
+	}
+	.five {
+		width: 41.66667%;
+	}
+	.six {
+		width: 50%;
+	}
+	.seven {
+		width: 58.33333%;
+	}
+	.eight {
+		width: 66.66667%;
+	}
+	.nine {
+		width: 75%;
+	}
+	.ten {
+		width: 83.33333%;
+	}
+	.eleven {
+		width: 91.66667%;
+	}
+	.twelve {
+		width: 100%;
+	}
+}
+
