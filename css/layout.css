@@ -32,11 +32,16 @@ body {
 		margin: 0 auto;
 		*zoom: 1;
 	}
+	section {
+		width: 100%;
+		margin: 0 0 1em;
+		clear:both;
+		display: block;
+		float: left;
+	}
 	.bloc, .blocs {
 		float:left;
 		position:relative;
-		padding:0 0.9em;
-		margin:0 0.9em;
 	}
 	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
 		position:relative;
