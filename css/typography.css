@@ -1,0 +1,27 @@
+/* Typography Framework CSS -------------
+Author: Joey Kirk
+Company: Bloc, Inc.
+Date: Sept. 9, 2013
+Version: 1.0 -----------------------*/
+
+/* Typography */
+body {
+	color:#666;
+	font-size: 1em;
+	font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Abril Fatface', cursive;
+	color:#333;
+}
+h1 {
+	font-size: 3.75em;
+	line-height: 1;
+	margin: 0.2em 0;
+}
+.subhead {
+	color:#95a5a6;
+	margin:0 0 1em 0;
+}
